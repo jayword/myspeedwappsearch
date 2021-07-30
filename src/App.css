@@ -1,5 +1,67 @@
+.Main {
+	margin: 0;
+	padding: 0;
+}
+
 .App {
+	margin-top: 50px;
   text-align: center;
+}
+
+h2 {
+	color: #25d250;
+}
+
+.Displays {
+	padding-left: 100px;
+	padding-top: 50px;
+	padding-right: 100px;
+}
+
+.Spana h2 {
+	color: #000000;
+	background-color: #25d250;
+	text-align: center;
+}
+
+input {
+	width: 50%;
+	margin: 10px;
+	padding: 15px 10px;
+	outline: none;
+	border: 1px solid #25d25f;
+	font-size: 22px;
+	border-radius: 5px;
+}
+
+input:focus {
+	outline: none !important;
+	border: 1px solid #25d250;
+	box-shadow: 0 0 10px #25d250;
+}
+
+button {
+	width: 20%;
+	border-radius: 5px;
+	background-color: #25d250;
+	color: #ffffff;
+	padding: 12px 10px;
+	font-size: 20px;
+	margin-top: -1px;
+	cursor: pointer;
+}
+
+.articleTitle h3 {
+	color: #25d250;
+}
+.articleUrl h4 i {
+	color: blue;
+}
+.author h4 i {
+	color: #ff0012;
+}
+.score h4 i {
+	color: grey;
 }
 
 .App-logo {
